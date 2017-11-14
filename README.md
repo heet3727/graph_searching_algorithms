@@ -17,3 +17,10 @@ Second line: positive 32-bit integer n, the width and height of the chess board 
 Third line: positive 32-bit integer p, the number of pawns <br />
 Next n lines: the n x n chess board, one file line per chess board row (to show you where the pawns are) <br />
 It will have a 0 where there is nothing, and a 2 where there is a pawn. <br />
+
+## Conclusion
+
+- If handled infinite loop in DFS, it performs better than BFS. (Because, it uses system recursion than any user defined data structures.)
+- SA performs better with fine-tuned temperature than both BFS and DFS.
+
+Here, performance is with respect to time given all the implementations are correct.
