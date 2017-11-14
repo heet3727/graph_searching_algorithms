@@ -18,6 +18,9 @@ Third line: positive 32-bit integer p, the number of pawns <br />
 Next n lines: the n x n chess board, one file line per chess board row (to show you where the pawns are) <br />
 It will have a 0 where there is nothing, and a 2 where there is a pawn. <br />
 
+## To run
+Use g++ compiler v4.2.1 onwards to compile
+
 ## Conclusion
 
 - If handled infinite loop in DFS, it performs better than BFS. (Because, it uses system recursion than any user defined data structures.)
